@@ -5,3 +5,11 @@ Sleep-disordered breathing (SDB) is a common and highly prevalent condition in c
 247 Articles Associated with the Treatment and Outcomes of SDB.
 
 The research team is interested in identifying relevant patterns associated with existing research trends – the objective is to index and mine these documents using singular value decomposition (SVD) with the intent of identifying logical patterns in the text.
+
+* pubmed_extract.py
+  This script extracts all the files related to the search keywords.
+  In this case, the search keywords are :'Sleep disordered breathing'
+  
+* case1.r
+  This script parses all the downloaded files and the pdf's to make a document term matrix and then a word cloud of the top frequent terms
+  
